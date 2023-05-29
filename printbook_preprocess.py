@@ -107,4 +107,5 @@ def perform_Dr_Samsun_Strategy_of_adding_advances(full_merge):
     full_merge = pd.merge(full_merge, grouped_merge, on='isbn13', how='left')
     full_merge = full_merge.rename(columns={'Advance_y':'advance_amount_sum'})
     return full_merge
+#THE END
         
